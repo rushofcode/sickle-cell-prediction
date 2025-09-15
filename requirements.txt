@@ -7,3 +7,4 @@ tensorflow
 opencv-python
 Pillow
 opencv-python
+opencv-python-headless

@@ -21,7 +21,7 @@ st.markdown('''       **Note:** Ensure the image is clear and for accurate predi
             ''')
 
 # Load the datasets
-file_path_not_sickle = 'C:/Users/dell/Downloads/Sickle-Cell-Image-main/Sickle-Cell-Image-main/image_features_NOTSICKLE.csv'  # Update with the correct path
+file_path_not_sickle = 'https://github.com/rushofcode/sickle-cell-prediction/blob/main/image_features_NOTSICKLE.csv'  # Update with the correct path
 file_path_sickle = 'C:/Users/dell/Downloads/Sickle-Cell-Image-main/Sickle-Cell-Image-main/image_features_SICKLE.csv'  # Update with the correct path
 
 data_not_sickle = pd.read_csv(file_path_not_sickle)
